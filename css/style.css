@@ -1,0 +1,824 @@
+/*
+
+	author:abulkhair;
+	website:none;
+	mail:abulkhair5277@gmail.com;
+
+
+*/
+
+
+/*
+
+	====index====
+	1.Home 
+	2.About Us
+	3.Our Services 
+	4.Prices
+	5.Contact
+
+               
+
+
+	color
+
+
+
+*/
+
+/* theme css */
+
+
+/* global css */
+.body{
+	
+}
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+h5{
+
+}
+
+h6{
+
+}
+
+p{
+
+}
+
+/* hero section */
+
+.navbar-head {
+    background: white;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
+    padding: 10px 10px;
+    margin: 10px 0px;
+}
+.nav-link.js-scroll-trigger.active {
+    border-bottom: 3px solid #E9C067;
+}
+.logo-cstm {
+    margin: 10px 0px;
+}
+.hero {
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 86px;
+}
+.hero-cstm {
+    margin-top: 39%;
+    margin-bottom: 5%;
+}
+.hero-cstm h2 {
+    font-size: 35px;
+    color: white;
+    font-weight: 450;
+    text-transform: capitalize;
+}
+.hero-cstm h4 {
+    font-size: 20px;
+    color: white;
+    font-weight: 450;
+    text-transform: capitalize;
+}
+.hero-button {
+    margin-top: 40%;
+}
+.hero-btn {
+    font-size: 17px;
+    padding: 7px 20px;
+    text-transform: capitalize;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+}
+.hero-btn:hover{
+	background-color: #E9C067;
+	color: black;
+}
+
+/* practice section */
+.practice {
+    padding-bottom: 65px;
+}
+.practice-cstm {
+    margin-top: 10%;
+    float: left;
+    margin-bottom: 25px;
+}
+.practice-cstm h2 {
+    font-size: 32px;
+    font-weight: 450;
+    text-transform: capitalize;
+    color: black;
+}
+.practice-cstm p {
+    font-size: 16px;
+}
+.practice-cstm-two h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.practice-item{
+    text-align: center;
+}
+.practice-item h5 {
+    font-size: 17px;
+    padding-top: 15px;
+}
+.practice-item-two p {
+    font-size: 15px;
+    font-weight: 350;
+}
+.practice-cstm-two p {
+    font-size: 16px;
+}
+
+/* lawers */
+.lawers {
+    background-color: black;
+    padding-bottom: 50px;
+}
+.lawers-contant {
+    margin-top: 60px;
+}
+.lawers-contant h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 400;
+}
+.lawers-contant p {
+    font-size: 15px;
+    font-weight: 350;
+    color: white;
+    padding-top: 20px;
+}
+.lawers-cstm {
+    text-align: center;
+}
+.lawers-cstm-two {
+    margin-top: 50px;
+}
+.lawers-cstm-two h3 {
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+.lawers-cstm-two p {
+    font-size: 15px;
+    color: white;
+    padding-top: 10px;
+    font-weight: 350;
+}
+.fa.fa-handshake-o {
+    font-size: 25px;
+    margin-top: 70px;
+    color: #FF9800;
+}
+.fa.fa-wrench{
+    font-size: 25px;
+    margin-top: 70px;
+    color: #FF9800;
+}
+.fa.fa-desktop{
+    font-size: 25px;
+    margin-top: 70px;
+    color: #FF9800;
+}
+.fa.fa-home{
+    font-size: 25px;
+    margin-top: 70px;
+    color: #FF9800;
+}
+
+/* atorny section */
+.atorny-cstm{
+    margin: 70px 0px 30px;
+}
+.atorny-cstm h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 400;
+}
+.atorny-cstm p{
+    font-size: 15px;
+    font-weight: 350;
+    color: black;
+    padding-top: 20px;
+}
+.atorny-img{
+    text-align: left;
+}
+.atorny-img img{
+    width: 100%;
+}
+.atorny-img h4{
+    font-size: 22px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.atorny-img h6{
+    font-size: 15px;
+    font-weight: 350;
+    color: black;
+    padding-bottom: 40px;
+}
+
+/* client section */
+.client {
+    background-image: url(../img/banner-two.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.client-cstm {
+    margin-top: 90px;
+    text-align: left;
+}
+.client-cstm h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 400;
+}
+.client-cstm p {
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.client-img img {
+    width: 80%;
+    float: left;
+}
+.client-cstm-two{
+
+}
+.client-cstm-two p{
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.client-cstm-two h4 {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.client-cstm-two h6 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 5px;
+    padding: 3px;
+    border-radius: 64%;
+    height: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+/* publication section */
+.publication{
+    padding-top: 25px;
+}
+.publication-cstm {
+    margin-top: 50px;
+    margin-bottom: 35px;
+    padding-top: 25px;
+}
+.publication-cstm h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 400;
+}
+.publication-cstm p{
+    font-size: 16px;
+    color: black;
+    font-weight: 300;
+    margin-top: 15px;
+}
+.card {
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.card img{
+    
+}
+.card-body{
+    
+}
+.card-body h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.card-body h6 {
+    font-size: 13px;
+}
+.card-body h6 i {
+    color: gray;
+}
+.card-body h5{
+    color: gray;
+    float: right;
+}
+.card-body h5 i {
+    font-size: 13px;
+}
+.card-body p {
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: 350;
+}
+
+.card-body span {
+    width: 100%;
+    border: 1px solid #FF9800;
+    display: inherit;
+    margin-top: 15px;
+}
+.fa.fa-share {
+    margin-left:42%;
+}
+
+/* faq section */
+.faq {
+    margin: 50px 0px 50px 0px;
+    background-color: black;
+    padding: 15px 0px 70px;
+}
+.faq-contant{
+
+}
+.faq-contant h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 400;
+    padding-top: 60px;
+}
+.faq-contant p{
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+    margin-top: 15px;
+}
+.faq-contant {
+    margin-bottom: 40px;
+}
+
+.faq-contant-two ul{
+    
+}
+.faq-contant-two ul li {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 5px 0px;
+}
+.faq-contant-two ul hr {
+    border: 1px solid #FF9800;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.faq-contant-three {
+    background-color: #eeb55f;
+}
+.faq-contant-three p {
+    color: white;
+    font-size: 16px;
+    padding-top: 15px;
+}
+.contact{
+
+}
+.contact-contant{
+
+}
+.contact-contant h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 400;
+    padding-top: 60px;
+}
+.contact-contant p{
+    font-size: 16px;
+    color: black;
+    font-weight: 300;
+    margin-top: 15px;
+}
+.contact-form {
+    margin-top: 50px;
+}
+.form-control {
+    border-bottom: 2px solid #FF9800;
+    margin-bottom: 10px;
+}
+.form-cstm{
+   border-bottom: 2px solid #FF9800;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+.contact-btn {
+    border: 1px solid gray;
+    font-size: 14px;
+    padding: 5px 16px;
+    border-radius: 18px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .4s ease-in-out;
+}
+.contact-btn:hover{
+    background-color: #FF9800;
+    color: white;
+}
+.contact-map img {
+    width: 80%;
+    height: 50%;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+/* media query */
+/* extra small device */
+@media (min-width: 320px) and (max-width: 576px){
+.hero-cstm h2 {
+    font-size: 25px;
+}
+.hero-cstm h4 {
+    font-size: 18px;
+}
+.hero-button {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.hero-btn {
+    font-size: 11px;
+}
+.practice-cstm h2 {
+    font-size: 23px;
+}
+.practice-cstm p {
+    font-size: 12px;
+}
+.practice-cstm-two h2 {
+    font-size: 16px;
+}
+.practice-item h5 {
+    font-size: 14px;
+}
+.practice-item-two p {
+    font-size: 12.5px;
+}
+.practice-cstm-two p {
+    font-size: 12.5px;
+}
+.lawers-contant h2 {
+    font-size: 23px;
+}
+.lawers-contant p {
+    font-size: 11px;
+}
+.lawers-cstm-two h3 {
+    font-size: 17px;
+}
+.lawers-cstm-two p {
+    font-size: 11px;
+}
+.fa.fa-handshake-o {
+    margin-top: 50px;
+}
+.fa.fa-wrench{
+    margin-top: 50px;
+}
+.fa.fa-desktop{
+    margin-top: 50px;
+}
+.fa.fa-home{
+    margin-top: 50px;
+}
+.atorny-cstm h2{
+    font-size: 25px;
+}
+.atorny-cstm p{
+    font-size: 12px;
+}
+.atorny-img{
+    text-align: center;
+}
+.atorny-img img{
+    width: 70%;
+}
+.atorny-img h4{
+    font-size: 18px;
+}
+.atorny-img h6{
+    font-size: 12px;
+}
+.client-cstm h2{
+    font-size: 25px;
+}
+.client-cstm p {
+    font-size: 12px;
+}
+.client-img{
+    text-align: center;
+}
+.client-img img {
+    width: 50%;
+}
+.client-cstm-two p{
+    font-size: 12px;
+}
+.client-cstm-two h4 {
+    font-size: 18px;
+}
+.client-cstm-two h6 {
+    font-size: 12px;
+}
+.publication-cstm h2{
+    font-size: 25px;
+}
+.publication-cstm p{
+    font-size: 11px;
+}
+.card {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.fa.fa-share {
+    margin-left:25%;
+}
+.faq-contant h2 {
+    font-size: 25px;
+}
+.faq-contant-three p {
+    font-size: 13px;
+    margin-top: 15px;
+}
+.faq-contant-two ul li {
+    font-size: 13px;
+}
+}
+
+
+/* small device */
+@media (min-width: 576.01px) and (max-width: 768px){
+.hero-cstm h2 {
+    font-size: 27px;
+}
+.hero-cstm h4 {
+    font-size: 20px;
+}
+.hero-button {
+    margin-top: 40%;
+    margin-bottom: 5%;
+}
+.hero-btn {
+    font-size: 12px;
+}
+.practice-cstm h2 {
+    font-size: 26px;
+}
+.practice-cstm p {
+    font-size: 13px;
+}
+.practice-cstm-two h2 {
+    font-size: 17px;
+}
+.practice-item h5 {
+    font-size: 15px;
+}
+.practice-item-two p {
+    font-size: 13px;
+}
+.practice-cstm-two p {
+    font-size: 13px;
+}
+.atorny-cstm h2{
+    font-size: 27px;
+}
+.atorny-cstm p{
+    font-size: 13px;
+}
+.atorny-img{
+    text-align: center;
+}
+.atorny-img img{
+    width: 70%;
+}
+.atorny-img h4{
+    font-size: 19px;
+}
+.atorny-img h6{
+    font-size: 13px;
+}
+.client-cstm h2{
+    font-size: 28px;
+}
+.client-cstm p {
+    font-size: 13px;
+}
+.client-img{
+    text-align: center;
+}
+.client-img img {
+    width: 100%;
+    margin-top: 15px;
+}
+.client-cstm-two p{
+    font-size: 13px;
+}
+.client-cstm-two h4 {
+    font-size: 22px;
+}
+.client-cstm-two h6 {
+    font-size: 13px;
+}
+.publication-cstm h2{
+    font-size: 28px;
+}
+.card {
+    margin-top: 10px;
+}
+.card-body h6 i {
+    color: gray;
+}
+.card-body h5{
+    float: right;
+}
+.card-body h5 i {
+    font-size: 11px;
+}
+.card-body p {
+    font-size: 14px;
+}
+.fa.fa-share {
+    margin-left:13%;
+}
+.faq-contant-three {
+    margin-top: 20px;
+}
+}
+
+/* medium device */
+@media (min-width: 768.01px) and (max-width: 992px){
+.hero-cstm h2 {
+    font-size: 30px;
+}
+.hero-cstm h4 {
+    font-size: 22px;
+}
+.hero-button {
+    margin-top: 40%;
+    margin-bottom: 5%;
+}
+.hero-btn {
+    font-size: 14px;
+}
+.practice-cstm h2 {
+    font-size: 28px;
+}
+.practice-cstm p {
+    font-size: 15px;
+}
+.practice-cstm-two h2 {
+    font-size: 19px;
+}
+.practice-item h5 {
+    font-size: 16px;
+}
+.practice-item-two p {
+    font-size: 14px;
+}
+.practice-cstm-two p {
+    font-size: 14px;
+}
+.client-cstm h2{
+    font-size: 30px;
+}
+.client-cstm p {
+    font-size: 14px;
+}
+.client-img{
+    text-align: center;
+}
+.client-img img {
+    width: 100%;
+    margin-top: 15px;
+}
+.client-cstm-two p{
+    font-size: 14px;
+}
+.client-cstm-two h4 {
+    font-size: 24px;
+}
+.client-cstm-two h6 {
+    font-size: 14px;
+}
+.publication-cstm h2{
+    font-size: 30px;
+}
+.fa.fa-share {
+    margin-left:40%;
+}
+}
+
+/* larg device */
+@media (min-width: 992.01px) and (max-width: 1200px){
+.hero-cstm h2 {
+    font-size: 32px;
+}
+.hero-cstm h4 {
+    font-size: 24px;
+}
+.hero-button {
+    margin-top: 40%;
+    margin-bottom: 5%;
+}
+.hero-btn {
+    font-size: 15px;
+}
+.fa.fa-share {
+    margin-left:10%;
+}
+.card-body h4 {
+    font-size: 16px;
+}
+.card-body h5 i {
+    font-size: 13px;
+}
+.card-body h6{
+    font-weight: 15px;
+}
+.card-body h6 i {
+    font-size: 13px;
+}
+.fa.fa-share {
+    margin-left:30%;
+}
+}
+
